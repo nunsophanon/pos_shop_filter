@@ -6,13 +6,17 @@
     'summary': """
         Generate Sale Price for products
         """,
-
+    'license': 'OPL-1',
+    'images': [
+        'static/description/main_screenshot.png',
+    ],
     'description': """
-        This module is allow user to genrate Sale Price for their products
+        This module is allow admin to assign Point of Sale to each employee or owner
     """,
 
-    'author': "ERP Cambodia Co,.LTD",
+    'author': "ERP CAMBODIA, Nun Sophanon",
     'website': "http://www.erpcambodia.biz",
+    'maintainer': 'ERP CAMBODIA',
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/13.0/odoo/addons/base/data/ir_module_category_data.xml
@@ -20,7 +24,7 @@
 
     # any module necessary for this one to work correctly
     'depends': ['point_of_sale'],
-
+    'support': 'erpcambo@gmail.com',
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
